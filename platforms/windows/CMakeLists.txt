@@ -1,5 +1,6 @@
 # 包含头文件目录
 include_directories(${CMAKE_SOURCE_DIR}/platforms/include)
+include_directories(${CMAKE_SOURCE_DIR}/platforms/windows/include)
 
 # 查找源文件
 file(GLOB WINDOWS_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
